@@ -4,7 +4,7 @@
 telegram -M "`printenv ROM_NAME`: Build started"
 SYNC_START=$(date +"%s")
 
-sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME
+sudo ./ErfanGSIs/url2GSI.sh $ROM_URL Generic:$ROM_NAME
     mkdir final
 
     SYNC_END=$(date +"%s")
