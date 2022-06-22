@@ -3,11 +3,11 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://pilotfiber.dl.sourceforge.net/project/NusantaraProject//jasmine_sprout/Nusantara_v1.0-jasmine_sprout-14082020-OFFICIAL-0602.zip
-  ROM_NAME: Generic:Nusantara_v1
-  ZIP_NAME: Nusantara_v1
+  ROM_URL: https://firmware.meizu.com/Firmware/Flyme/M1813/7.1.5.2/cn/20200113115159/4440a072/update.zip
+  ROM_NAME: Flyme
+  ZIP_NAME: update
   TZ: America/Sao_Paulo
-  MIR: gof
+  MIR: tmp
 jobs:
   build:
     runs-on: ubuntu-latest
